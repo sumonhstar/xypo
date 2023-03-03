@@ -1,0 +1,273 @@
+
+@media screen and (min-width: 600px) and (max-width: 800px){
+    #body-head{
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .about-img{
+        width: 100%;
+    }
+    .about-title{
+        flex-basis: 100%;
+    }
+    #about-us{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+.feature-btn{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.offer-container{
+    flex-direction: column;
+    align-items: flex-end;
+}
+.offer-title{
+    flex-basis:100%;
+}
+.contact-row{
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-row{
+    justify-content: center;
+
+}
+.footer-left-col,
+.footer-right-col{
+padding-left: 150px;
+}
+.features-col{
+    flex-basis: 50% !important
+}
+/* .common-btn{
+    display: none;
+} */
+}
+@media screen and (max-width: 800px){
+    #body-head{
+        background-image:none;
+    }
+    .container{
+        padding:0 40px;
+    }
+    .menu{
+        display: block;
+        text-align: center;
+    }
+    .menu-logo img{
+        width:130px;
+        margin-top:15px;
+        cursor:pointer;
+    }
+    .menu-link ul{
+        list-style: none;
+        margin:30px auto;
+        line-height: 30px;
+    
+    }
+    .menu-link ul li{
+        display:inline-block;
+        margin:0 9px;
+    }
+    .menu-link ul li a{
+        font-size:15px;
+    }
+    .container h2{
+        text-align: left;
+        margin:30px 0 10px;
+        font-size:20px;
+        line-height: 25px;
+     }
+     .container p{
+        margin-top: 0px;
+        width: 100%;
+        max-width: 500px;
+        font-size: 13px;
+        text-align: justify;
+    }
+    .square{
+        width:10px;
+        height:10px;
+    }
+    .common-btn{
+        font-size:12px;
+        padding:8px 20px;
+        cursor: pointer;
+        transition: .4s;
+    }
+    .feature-btn  .common-btn{
+        display: none;
+    }
+    .line{
+        margin:30px 0;
+        line-height: 12px;;
+    }
+    .line-1{
+        width:12px;
+        height:12px;
+    }
+    .line-2{
+        width:70px;
+    }
+    .line-3{
+        width:50px;
+    }
+    #about-us{
+        display: flex;
+        margin:-230px 0 50px;
+    }
+    .about-img{
+        flex-basis: 100%;
+    }
+    .about-title{
+        flex-basis: 100%;
+        margin: 0 50px;
+        margin-top:50px;
+    }
+    .about-head{
+        font-size:25px;
+    }
+    .about-dis{
+        margin-left:0px;
+        font-size:12px;
+        opacity:0.7;
+        text-align: justify;
+    }
+    .about-says{
+        font-size:13px;
+        text-align: right;
+    }
+    .features-col{
+        flex-basis:100%;
+        margin-bottom: 20px;
+    }
+    .features-col img{
+        width:100px;
+    }
+    .features-col h4{
+        font-size:15px;
+        cursor:pointer;
+    }
+    .features-col p{
+        font-size:13px;
+    }
+    .feature-btn{
+        margin:0px auto -40px;
+        display:block;
+    }
+    .feature-btn .line{
+        text-align: center;
+    }
+    .feature-btn .common-btn{
+        margin-left:35%;
+    }
+    .course-row{
+        margin:0 50px;
+    }
+    .left-col{
+        flex-basis:100%;
+    }
+    .right-col{
+        flex-basis:100%;
+    }
+    .course-title{
+        max-width: 100%;
+    }
+    .course-title h3{
+        font-size:20px;
+        text-transform: capitalize;
+    }
+    .course-title p {
+        text-align:justify;
+        max-width: 500px;
+    }
+    #offer h3{
+        visibility: visible;
+        text-align: center;
+        font-size: 25px;
+        color: #d67086;
+        padding:10px;
+    }
+    .offer-img{
+        flex-basis: 100%;
+    }
+    .offer-title{
+        flex-basis: 100%;
+        text-align: right;
+        margin:0 50px;
+        padding-top:60px;
+    }
+    .offer-dis{
+        margin-left:0px;
+      text-align: justify;  
+    }
+    .contact-left-col, .contact-right-col{
+        flex-basis:100%;
+    }
+    .contact-left-col h3{
+        font-size:20px;
+    }
+    #footer{
+        padding:30px 0 30px;
+    }
+    .footer-left-col, .footer-right-col{
+        flex-basis: 100%;
+    }
+    .link-title{
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+    .footer-copy small{
+        font-size: 10px;
+    }
+    .footer-logo img{
+        width:70px;
+    }
+    .footer-logo button{
+        padding:10px 25px;
+        margin-top: 20px;
+        font-size:10px;
+    }
+    #navMenu{
+        width:280px;
+    }
+    .social-icons{
+        width:35px;
+    }
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1200px){
+    #body-head{
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .container{
+        padding:0 50px;
+    }
+    .container p{
+        width:50%;
+    }
+    .about-img,
+    .about-title{
+        flex-basis: 45%;
+    }
+    .offer-img,
+    .offer-title{
+        flex-basis: 43%;
+        padding-top: 0;
+    }
+    .offer-title{
+        margin-right:50px;
+    }
+    .course-row{
+        margin:0 50px;
+    }
+    .about-title{
+        margin-right: 50px;
+    }
+}
